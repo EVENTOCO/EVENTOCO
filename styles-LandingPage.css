@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    margin-left: 15px; /* Mover el h1 3px hacia la derecha */
+    background-image: url('img/background.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el área disponible */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    width: 100%;
+}
+
+header {
+    background-color: rgba(236, 194, 166, 0.445); /* Color de fondo del encabezado con 70% de opacidad */
+    padding: 5px;
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Alinear elementos al extremo */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.logo {
+    max-width: 80px; /* Ancho máximo del logo */
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar li:first-child {
+    margin-left: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 2px solid #D35400; /* Borde alrededor de los botones */
+    border-radius: 20px; /* Hace los bordes más redondos */
+    background-color: #D35400; /* Color de fondo de los botones */
+    color: #FFFFFF; /* Color del texto */
+    font-family: 'Lato', sans-serif; /* Fuente Lato */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.navbar li a:hover {
+    background-color: #FDF2E9; /* Color de fondo al pasar el mouse */
+    color: #D35400; /* Color del texto al pasar el mouse */
+}
+.btn-iniciar {
+    display: inline-block;
+    background-color: #D35400;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 150px; /* Mover el botón 20px hacia la derecha */
+}
+
+.btn-iniciar:hover {
+    background-color: #FDF2E9;
+    color: #D35400;
+}
+.content {
+    text-align:left;
+    color: #000000;
+    background-color: #ffffffc5;
+    background-size: cover;
+    background-position: center;
+    padding: 6%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px
+
+
+}
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin-right: 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    background-color: #204979; /* Color de fondo para el footer */
+    color: #fff; /* Color de texto para el footer */
+    text-align: center;
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px
+    
+}
+.contact-info {
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    background-color: rgba(226, 224, 223, 0.89);
+    opacity: 90%;
+    padding: 2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px
+    
+
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.social-icon {
+    margin-right: 30px;
+    align-items: center;
+}
+
+.social-icon img {
+    
+        width: 50px; /* Cambia este valor al tamaño deseado */
+        height: auto; /* Para mantener la proporción original */
+
+    
+}
+.img_experiencia{
+        float: right;
+        margin-left: 30px; /* Ajusta el margen izquierdo para separar la imagen del texto */
+        width: 280px; /* Cambia este valor al ancho deseado */
+    height: 800; /* Mantener la proporción original */
+    }
+   .img_experiencia2{
+    float: left;
+        margin-right: 30px; /* Ajusta el margen izquierdo para separar la imagen del texto */
+        width: 260px; /* Cambia este valor al ancho deseado */
+    height: 200; /* Mantener la proporción original */
+    }
+   
